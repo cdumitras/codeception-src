@@ -1,0 +1,46 @@
+<div class="footer-container">
+    <div class="footer">
+                <div class="f-right">
+            <img src="http://codeception.dev/skin/frontend/default/modern/images/media/footer_callout.png" class="footer-callout" alt="" />
+            <div class="store-switcher">
+    <label for="select-store">Sélectionnez la boutique:</label>
+    <select id="select-store" title="Sélectionnez Boutique" onchange="location.href=this.value">
+                        <option value="http://codeception.dev/fr/?___SID=U&___store=fr_default">france</option>
+                    <option value="" selected="selected">Main Store</option>
+        </select>
+</div>
+        </div>
+        <div class="f-left">
+            <ul>
+<li><a href="http://codeception.dev/fr/about-magento-demo-store?___SID=U">About Us</a></li>
+<li><a href="http://codeception.dev/fr/customer-service?___SID=U">Customer Service</a></li>
+<li class="last privacy"><a href="http://codeception.dev/fr/privacy-policy-cookie-restriction-mode?___SID=U">Privacy Policy</a></li>
+</ul>            <ul class="links">
+                        <li class="first" ><a href="http://codeception.dev/fr/catalog/seo_sitemap/category/?___SID=U" title="Plan du Site" >Plan du Site</a></li>
+                                <li ><a href="http://codeception.dev/fr/catalogsearch/term/popular/?___SID=U" title="Termes de recherche" >Termes de recherche</a></li>
+                                <li ><a href="http://codeception.dev/fr/catalogsearch/advanced/?___SID=U" title="Recherche avancée" >Recherche avancée</a></li>
+                                <li ><a href="http://codeception.dev/fr/sales/guest/form/?___SID=U" title="Commandes et Retours" >Commandes et Retours</a></li>
+                                <li class=" last" ><a href="http://codeception.dev/fr/contacts/?___SID=U" title="Nous contacter" >Nous contacter</a></li>
+            </ul>
+            <form action="http://codeception.dev/fr/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+    <div class="form-subscribe">
+        <div class="form-subscribe-header">
+            <label for="newsletter">Inscription à la newsletter :</label>
+        </div>
+        <div class="input-box">
+           <input type="text" name="email" id="newsletter" title="Inscrivez-vous à notre newsletter" class="input-text required-entry validate-email" />
+        </div>
+        <button type="submit" title="Soumettre" class="button"><span><span>Soumettre</span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    new Varien.searchForm('newsletter-validate-detail', 'newsletter', 'Renseignez votre adresse e-mail');
+//]]>
+</script>
+            <p class="bugs">Aidez-nous à maintenir Magento en forme - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong>Rapporter tous les bugs</strong></a> (ver. 1.8.1.0)</p>
+            <address>&copy; 2013 Magento Demo Store. All Rights Reserved.</address>
+        </div>
+    </div>
+</div>
