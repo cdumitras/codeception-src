@@ -16,7 +16,7 @@ modules:
             host: 127.0.0.1
             port: 4444
             window_size: 1024x768
-            wait: 10
+            wait: 2
             capabilities:
                 unexpectedAlertBehaviour: 'accept'
 
@@ -25,17 +25,17 @@ env:
         modules:
             config:
                 WebDriver:
-                    host: '10.0.2.15'
+                    host: '192.168.56.1'
                     browser: 'firefox'
     french:
         modules:
             config:
                 WebDriver:
-                    url: 'http://codeception.dev/fr/'
+                    url: 'http://codeception.dev/fr'
     french-firefox:
         modules:
             config:
                 WebDriver:
                     url: 'http://codeception.dev/fr/'
-                    host: 10.0.2.15
+                    host: '192.168.56.1'
                     browser: 'firefox'

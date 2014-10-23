@@ -53,7 +53,7 @@ umask(0);
 $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : 'french';
 
 /* Run store or run website */
-$mageRunCode = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
+$mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
 
-Mage::run($mageRunCode, $mageRunCode);
+Mage::run($mageRunCode, $mageRunType);
