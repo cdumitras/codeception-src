@@ -1,0 +1,21 @@
+I WANT TO MAKE A NEW ORDER WITH ALL THE STEPS IN THE SAME TEST
+
+I am on page '/customer/account/login/'
+I fill field '#email'," 'demo@pentalog.fr'
+I fill field '#pass'," '1234567'
+I click '#send2'
+I can see element '#my-orders-table'
+I am on page '/furniture/living-room.html'
+I click 'Magento Red Furniture Set'
+I fill field '#super-product-table > tbody > tr.even > td.a-center.last > input'," 1"
+I click '.add-to-cart button'
+I click('.totals > ul:nth-child(2) > li:nth-child(1) > button:nth-child "1)'
+I click '#billing-buttons-container button'
+I wait for element visible '#shipping-method-buttons-container button'
+I click '#shipping-method-buttons-container button'
+I wait for element visible '#payment-buttons-container button'
+I click '#p_method_checkmo'
+I click '#payment-buttons-container button'
+I wait for element visible '#review-buttons-container button'
+I click '#review-buttons-container button'
+I make screenshot 'ordersuccess'

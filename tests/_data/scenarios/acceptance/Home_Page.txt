@@ -1,0 +1,5 @@
+I WANT TO TEST HOMEPAGE
+
+I am on page '/'
+I see 'Welcome'
+I make screenshot 'test'

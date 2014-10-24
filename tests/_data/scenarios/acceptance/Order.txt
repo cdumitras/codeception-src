@@ -1,0 +1,8 @@
+I WANT TO MAKE A NEW ORDER
+
+I am on page "CatalogPage::$URL"
+I click "CatalogPage::$testProduct"
+I fill field "CatalogPage::$qtyInput"," 1"
+I click "CatalogPage::$buyButton"
+I click "ShoppingCartPage::$checkoutButton"
+I make screenshot 'ordersuccess2'
